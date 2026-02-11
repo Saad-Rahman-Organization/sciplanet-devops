@@ -184,7 +184,7 @@ jobs:
     - name: Apply secret
       if: always()
       run: |
-          oc apply -f dpr-secret.yaml
+          oc apply -f devhub-secret.yaml
     - name: Apply service
       if: always()
       run: |
