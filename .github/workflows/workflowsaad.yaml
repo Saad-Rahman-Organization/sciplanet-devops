@@ -15,7 +15,7 @@ env:
   IMAGE_NAME: ${{ github.repository }}
 
   OPENSHIFT_SERVER: https://api.rm2.thpm.p1.openshiftapps.com:6443
-  OPENSHIFT_TOKEN: sha256~y_1v6NanO_vM2dzTaoUuy37_1N_wB7bTKi95opIuoIQ
+  OPENSHIFT_TOKEN: sha256~c5Wv6qjewO3D5r5QGIx6105q7YhkzvMQ2QmVBdbbI3E
   # 🖊️ EDIT to set the kube context's namespace after login. Leave blank to use your user's default namespace.
   OPENSHIFT_NAMESPACE: ""
 
