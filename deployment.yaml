@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: pharmfinder-ui-container
-        image: saadrahmanwarsi/pharmfinder-ui:1.0.0
+        image: ghcr.io/Saad-Rahman-Organization/devhub-devops:saad
         ports:
         - containerPort: 8080
