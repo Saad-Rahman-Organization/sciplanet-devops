@@ -17,5 +17,5 @@ spec:
         image: ghcr.io/saad-rahman-organization/devhub-devops:main-xxx
         ports:
         - containerPort: 8080
-        imagePullSecrets:
+      imagePullSecrets:
         - name: pharmfinder-ui-secret
