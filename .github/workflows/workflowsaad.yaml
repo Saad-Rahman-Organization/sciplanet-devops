@@ -180,7 +180,7 @@ jobs:
     - name: Image pull
       if: always()
       run: |
-          oc import-image ghcr.io/saad-rahman-organization/devhub-devops:main-${{ env.RUN_ID }} --token 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 --confirm # --token ?
+          oc import-image ghcr.io/saad-rahman-organization/devhub-devops:main-${{ env.RUN_ID }} --token c5Wv6qjewO3D5r5QGIx6105q7YhkzvMQ2QmVBdbbI3E --confirm # --token ?
     - name: Apply secret
       if: always()
       run: |
